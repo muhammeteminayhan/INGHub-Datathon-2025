@@ -1,7 +1,7 @@
 # 🧠 INGHub Datathon 2025 — Müşteri Erimesi (Churn) Tahmin Modeli
 
 Bu proje, **ING Hub Datathon 2025** kapsamında geliştirilmiş bir **müşteri erimesi (churn) tahmin sistemi**dir.  
-Amaç, müşteri davranışlarını geçmiş finansal aktiviteler üzerinden analiz ederek, gelecekte **bankadan ayrılma olasılığı yüksek müşterileri** tespit etmektir.
+Amaç, müşteri davranışlarını geçmiş finansal aktiviteler üzerinden analiz ederek, gelecekte **bankadan ayrılma olasılığı yüksek müşterileri** tespit etmektir. Etik kuralları ihlalinden dolayı veri setleri paylaşılmamıştır.
 
 ---
 
