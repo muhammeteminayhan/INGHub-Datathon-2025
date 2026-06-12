@@ -13,6 +13,8 @@ INGHub/
 ├── notebooks/
 │   ├── INGHub_Datathon_Full.ipynb       # Tüm analiz, feature engineering ve modelleme süreci
 │
+├── images/                              # README görselleri (notebook grafik çıktıları)
+│
 ├── data/                                # (Ignore edildi) Ham veri dosyaları (.csv)
 │
 ├── features_cache/                      # (Ignore edildi) Geçici feature pickle dosyaları
@@ -79,6 +81,26 @@ INGHub/
 | LightGBM | ~0.64 | ~0.40 | ~4.0 | ~1.94 |
 | XGBoost | ~0.63 | ~0.38 | ~3.8 | ~1.88 |
 | **Ensemble (Optuna + Hill Climb)** | **~0.65** | **~0.41** | **~4.06** | **~1.98** |
+
+---
+
+## 📈 Görselleştirmeler
+
+> Aşağıdaki grafikler `notebooks/INGHub_Datathon_Full.ipynb` analiz ve modelleme çıktılarından üretilmiştir.
+
+### Keşifsel Veri Analizi (EDA)
+
+| Churn Dağılımı (sınıf dengesizliği) | Finansal Değişken Korelasyonu |
+|:---:|:---:|
+| <img src="images/01_churn_distribution.png" width="420"/> | <img src="images/02_correlation_matrix.png" width="420"/> |
+| **Churn'e Göre Aktif Ürün & EFT Davranışı** | **Churn – Sayısal Özellik Korelasyonu** |
+| <img src="images/03_churn_vs_products_eft.png" width="420"/> | <img src="images/04_churn_feature_correlation.png" width="420"/> |
+
+### Modelleme Sonuçları
+
+| Model Karşılaştırması (Validation) | En Önemli 20 Özellik (Model Ortalaması) |
+|:---:|:---:|
+| <img src="images/05_model_comparison.png" width="420"/> | <img src="images/06_feature_importance.png" width="420"/> |
 
 ---
 
